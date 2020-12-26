@@ -1,0 +1,14 @@
+{
+    "C_Cpp.intelliSenseEngine": "Disabled",
+    "C_Cpp.autocomplete": "Disabled",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+
+    "clangd.arguments": [
+        "-log=verbose",
+        "-pretty",
+        "--background-index",
+        "--compile-commands-dir=${workspaceFolder}/build"
+    ],
+    "clangd.onConfigChanged": "restart",   
+}
