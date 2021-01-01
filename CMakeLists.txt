@@ -31,6 +31,9 @@ add_subdirectory(src)
 # Build application
 add_subdirectory(app)
 
+# Add scripts
+add_subdirectory(scripts)
+
 # Build tests
 if((CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME) AND BUILD_TESTING)
     add_subdirectory(test)

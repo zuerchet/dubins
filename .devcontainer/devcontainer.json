@@ -14,6 +14,7 @@
 		"idanp.smartmulticursor",
 		"yo1dog.cursor-align",
 		"twxs.cmake",
+		"ms-python.python",
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

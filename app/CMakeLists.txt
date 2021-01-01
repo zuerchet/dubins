@@ -7,7 +7,7 @@ add_executable(${PROJECT_NAME}_app ${sources})
 
 target_link_libraries(${PROJECT_NAME}_app 
     PRIVATE 
-        ${PROJECT_NAME}_lib 
+        ${PROJECT_NAME}_static 
 )
 
 set_target_properties(${PROJECT_NAME}_app

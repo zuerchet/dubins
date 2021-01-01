@@ -4,6 +4,7 @@ RUN apt update && export DEBIAN_FRONTEND=noninteractive \
     && /bin/bash \
     && apt -y install git \
     && apt -y install clang clangd clang-tidy clang-format clang-tools lldb \
+    && apt -y install python3-distutils python3-dev python3-matplotlib \
     && apt -y install cmake \
     && apt -y install doxygen \
     && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*

@@ -5,3 +5,5 @@ if((CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME) AND BUILD_TESTING)
     option(INSTALL_GTEST "" OFF)
     add_subdirectory(googletest)
 endif()
+
+add_subdirectory(pybind11)
